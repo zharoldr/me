@@ -1,0 +1,146 @@
+body {
+    background-color: #0f000f;
+}
+
+.navbar ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #220022;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #ff8fff;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #690069;
+}
+
+.navbar ul li a:hover {
+    background-color: #450045;
+}
+
+p, h1, h2, li {
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    padding-bottom: 100px;
+}
+
+.grid-element {
+    box-sizing: border-box;
+
+    width: auto;
+    height: auto;
+}
+
+.grid-element img {
+    width: auto;
+    height: auto;
+}
+
+.text-and-pic {
+    display: grid;
+    grid-template-columns: 415px 415px;
+
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: auto;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: top;
+}
+
+.column-text {
+    box-sizing: border-box;
+
+    width: auto;
+}
+
+.column-text p, li {
+    text-align: left;
+}
+
+.column-pic img {
+    box-sizing: border-box;
+
+    width: 400px;
+}
+
+.column-text .image-drop img{
+    box-sizing: border-box;
+
+    width: 400px;
+}
+
+.full-text {
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+}
+
+.full-text h2 {
+    text-align: center;
+}
+
+.full-text p {
+    text-align: left;
+}
+
+.full-text .pic-side-by-side {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    box-sizing: border-box;
+}
+
+.full-text .pic-top-on-bottom {
+    display: grid;
+    grid-template-rows: auto auto;
+
+    box-sizing: border-box;
+}
+
+.full-text .pic-side-by-side img {
+    padding: 15px;
+}
